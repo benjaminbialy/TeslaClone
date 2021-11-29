@@ -1,0 +1,40 @@
+.body{
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.body--product{
+    font-size: 40px;
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+.body--buttons{
+padding-top: 30%;
+width:100%;
+display: flex;
+justify-content: center;
+} 
+.body--buttons--first__btn{
+    margin-right: 2.5%;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #171A20CC;
+    color: #FFFFFFFF;
+    border-color: #171A20CC;
+    opacity: 90%;
+    text-align: center;
+    line-height: 40px;
+}
+.body--buttons--second__btn{
+    margin-right: 2.5%;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #FFFFFFA6;
+    color: #393C41;
+    border-color: #FFFFFFA6;
+    text-align: center;
+    line-height: 40px;
+}

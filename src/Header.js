@@ -4,7 +4,9 @@ function Header() {
     return (
         <div className="header">
             <div className="header--left">
-                <img src="https://automoteve.com/wp-content/uploads/2020/04/Tesla-Name.png" alt="TESLA"></img>
+                <a href="localhost:3000">
+                    <img src="https://assets.website-files.com/5e8fceb1c9af5c3915ec97a0/5ec2f037975ed372da9f6286_Tesla-Logo-PNG-HD.png" alt="TESLA"></img>
+                </a>
             </div>
             <div className="header--middle">
                 <ul className="header--middle--list">

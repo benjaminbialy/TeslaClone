@@ -1,0 +1,9 @@
+.footer{
+    clear: both;
+    position: relative;
+    height: 10%;
+    margin-top: -5%;
+}
+.footer--list--items a{
+    color: #D0D1D2;
+}
