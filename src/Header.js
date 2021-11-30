@@ -32,13 +32,13 @@ function Header() {
             </div>
             <div className="header--right">
                 <ul className="header--right--list">
-                    <li>    
+                    <li className="header--right--list--items">    
                         <a href="shop">Shop</a>
                     </li>
-                    <li>
+                    <li className="header--right--list--items">
                         <a href="account">Account</a>
                     </li>
-                    <li>
+                    <li className="header--right--list--items">
                         <a href="menu">Menu</a>
                     </li>
                 </ul>
