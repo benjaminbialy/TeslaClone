@@ -1,0 +1,12 @@
+.designer--stats {
+    width:300px;
+    height:150px;
+    border:1px solid #ccc;
+}
+.designer--stats > div {
+    width:33.3%;
+    height:50%;
+    border:1px solid #ccc;
+    float: left;
+    box-sizing:border-box;
+}
