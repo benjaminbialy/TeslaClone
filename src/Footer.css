@@ -4,6 +4,19 @@
     height: 10%;
     margin-top: -5%;
 }
+.footer--list{
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+}
 .footer--list--items a{
     color: #D0D1D2;
 }
+@media screen and (max-width: 560px) {
+    .footer--list{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 5%;
+    } 
+  }

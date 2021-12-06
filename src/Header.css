@@ -3,10 +3,10 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 0;
+    z-index: 1;
 }
 img{
-    width: 40%;
+    width: 50%;
 
 }
 .header--left{
@@ -47,4 +47,21 @@ a{
     border-radius: 9px;
     color: #181B21;
     transition: .25s;
+}
+@media screen and (max-width: 907px) {
+    .header--middle{
+        display: none;
+    } 
+    .invisible--right--item{
+        display: none;
+
+    }
+    .shade--menu{
+        background:rgba(128,128,128,.1);
+        border-radius: 9px;
+        color: #181B21;
+    }
+    .header--right--list{
+        justify-content: end;
+    }
 }

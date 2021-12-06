@@ -1,19 +1,33 @@
 .body{
-height: 100vh;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    min-height: 100vh;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
-.body--product{
+.body--product{ 
+    position:absolute; 
+    top: 18%;
+    display: flex;
+    justify-content: center;
     font-size: 40px;
-    padding-top: 7%;
-    padding-bottom: 1%;
+    width: 100%;
+}
+.body--description{
+    position:absolute; 
+    top: 26%;
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    padding: 0 2% 0 2%;
+    font-size: .9rem;
 }
 .body--buttons{
-padding-top: 27.5%;
-width:100%;
-display: flex;
-justify-content: center;
+    position:absolute; 
+    bottom: 12.5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 } 
 .body--buttons--first__btn{
     margin-right: 2.5%;
@@ -38,3 +52,28 @@ justify-content: center;
     text-align: center;
     line-height: 40px;
 }
+@media screen and (max-width: 525px) {
+    .body--buttons{
+        position:absolute; 
+        bottom: 12.5%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .body--buttons--first__btn{
+        width: 90%;
+        margin-right: 0;
+    }
+    .body--buttons--second__btn{
+        margin-right: 0;
+        margin-top: 5%;
+        width: 90%;
+    }   
+  }
+  @media screen and (max-width: 450px) {
+    .body--product{
+        font-size: 2rem;
+    }
+  }
